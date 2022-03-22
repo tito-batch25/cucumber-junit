@@ -96,4 +96,15 @@ for given duration
 
     }
 
+    public static void clickRadioButton(List<WebElement>radioButtons, String attributeValue){
+        for (WebElement each : radioButtons) {
+            if (each.getAttribute("value").equalsIgnoreCase(attributeValue)) {
+
+                each.click();
+            }
+        }
+
+
+
+    }
 }
