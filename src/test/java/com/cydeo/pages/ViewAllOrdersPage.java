@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ViewAllOrdersPage extends BasePage {
-    public ViewAllOrdersPage() {
+    public ViewAllOrdersPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
@@ -15,4 +15,7 @@ public class ViewAllOrdersPage extends BasePage {
     public WebElement newCustomerCell;
 
 
+
 }
+
+

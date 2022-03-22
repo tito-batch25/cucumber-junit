@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class WikiSearchPage {
 
-    public WikiSearchPage() {
+    public WikiSearchPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
@@ -19,5 +19,6 @@ public class WikiSearchPage {
 
     @FindBy(id = "firstHeading")
     public WebElement mainHeader;
+
 
 }
