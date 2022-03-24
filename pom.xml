@@ -9,9 +9,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -29,9 +30,6 @@
             </plugin>
         </plugins>
     </build>
-
-
-
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -75,8 +73,6 @@
             <artifactId>reporting-plugin</artifactId>
             <version>7.2.0</version>
         </dependency>
-
-
 
     </dependencies>
 
